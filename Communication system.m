@@ -7,7 +7,7 @@
 
 %------------------------------ 1. Transmission ---------------------------
 % Read the sound file and play it
-[x, fs] = audioread('bb.mp3'); % Load audio file
+[x, fs] = audioread('audio_file.mp3'); % Load audio file
 disp('Now playing your audio file ...');
 value = 1;
 while (value == 1)
